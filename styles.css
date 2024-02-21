@@ -1,1 +1,76 @@
 /* your code here */
+
+.content{
+	background-color:#000000;
+    padding-inline:30px;
+	
+}
+.top{
+	padding-top:10px;
+	height:100px;
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+
+	
+	
+}
+.logo_name{
+	font-family:arial;
+	color:white;
+	font-size:50px;
+	}
+.media-icons{
+	width:500px;
+	
+	text-align:right;
+}
+.media-icons a{
+	padding-right:20px;
+}
+
+.link-boxes{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	font-family:arial;
+	color:#8F9297;
+	margin-top:50px;
+	padding-bottom:50px;
+}
+
+.link-boxes h3{
+	text-decoration:underline;
+    text-decoration-thickness:2px;
+	text-underline-position: under;
+	color:white;
+	
+	
+}
+
+
+.link-boxes li {
+    list-style-type:none;
+	}
+.link-boxes a{
+	text-decoration:none;
+	color:white;
+	text-align:left;
+	
+}
+
+.bottom-details{
+	background-color:#2C303A;
+	color:#8F9297;
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+	font-weight:bold;
+	font-size:15px;
+	font-family:arial;
+	padding-inline:30px;
+	}
+.bottom-details a{
+	color:#8F9297;
+}
